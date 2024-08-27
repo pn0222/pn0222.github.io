@@ -1,7 +1,13 @@
+:root{
+  --primaryColor: #849257;
+  --bgColor: #D6D6C9;
+  --fontColor: #505050;
+}
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: var(--fontColor);
+  background-color: var(--bgColor);
 }
 
 @media (min-width: 992px) {
@@ -20,7 +26,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: var(--fontColor);
 }
 
 h1 {
@@ -40,11 +46,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: var(--fontColor);
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: var(--primaryColor);
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +62,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: var(--primaryColor);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -131,15 +137,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: var(--primaryColor) !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: var(--primaryColor) !important;
 }
 
 a {
-  color: #BD5D38;
+  color: var(--primaryColor);
 }
 
 a:hover, a:focus, a:active {
