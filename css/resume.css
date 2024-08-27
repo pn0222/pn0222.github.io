@@ -57,9 +57,12 @@ h2 {
   font-size: 1.75rem;
 }
 
-.list-icons {
-  font-size: 3rem;
+.list-icons>li>img {
+  width:5rem;
+  padding:0.5rem;
+  /* font-size: 3rem; */
 }
+
 
 .list-icons .list-inline-item i:hover {
   color: var(--primaryColor);
