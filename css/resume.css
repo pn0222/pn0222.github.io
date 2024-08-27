@@ -158,3 +158,9 @@ a:hover, a:focus, a:active {
 .primaryColor {
   color: var(--primaryColor);
 }
+.primaryFont {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--fontColor);
+}
